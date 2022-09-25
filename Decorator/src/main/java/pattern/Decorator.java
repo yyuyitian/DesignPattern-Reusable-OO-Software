@@ -1,7 +1,11 @@
 package pattern;
 
 /**
+<<<<<<< HEAD
  * 装饰器
+=======
+ * work as Decorator
+>>>>>>> 72deacd (first commit)
  */
 public class Decorator implements VisualComponent{
 
