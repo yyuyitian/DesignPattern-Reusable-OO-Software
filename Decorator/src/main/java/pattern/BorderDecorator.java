@@ -1,5 +1,8 @@
 package pattern;
 
+/**
+ * work as ConcreteDecorator
+ */
 public class BorderDecorator extends Decorator{
 
     public BorderDecorator() {
@@ -11,6 +14,10 @@ public class BorderDecorator extends Decorator{
         this.borderWidth = borderWidth;
     }
 
+    /**
+     * work as addedBehavior
+     * @param borderWidth
+     */
     private void drawBorder(int borderWidth) {
         System.out.println("draw border with: " + borderWidth);
     }

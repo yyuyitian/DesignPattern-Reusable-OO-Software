@@ -1,7 +1,7 @@
 package pattern;
 
 /**
- * 装饰器
+ * work as Decorator
  */
 public class Decorator implements VisualComponent{
 

@@ -1,5 +1,8 @@
 package pattern;
 
+/**
+ * work as ConcreteComponent
+ */
 public class TextView implements VisualComponent{
 
     private int id;

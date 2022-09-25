@@ -1,5 +1,8 @@
 package pattern;
 
+/**
+ * work as ConcreteDecorator
+ */
 public class ScrollDecorator extends Decorator{
 
     public ScrollDecorator(VisualComponent component) {
@@ -12,6 +15,9 @@ public class ScrollDecorator extends Decorator{
         drawScroll();
     }
 
+    /**
+     * work as addedBehavior
+     */
     private void drawScroll() {
         System.out.println("draw scroll");
     }
