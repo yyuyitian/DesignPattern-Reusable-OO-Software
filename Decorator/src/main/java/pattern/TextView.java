@@ -1,11 +1,9 @@
 package pattern;
 
-<<<<<<< HEAD
-=======
+
 /**
  * work as ConcreteComponent
  */
->>>>>>> 72deacd (first commit)
 public class TextView implements VisualComponent{
 
     private int id;

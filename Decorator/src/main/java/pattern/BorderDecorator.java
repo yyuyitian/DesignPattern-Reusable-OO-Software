@@ -1,11 +1,9 @@
 package pattern;
 
-<<<<<<< HEAD
-=======
+
 /**
  * work as ConcreteDecorator
  */
->>>>>>> 72deacd (first commit)
 public class BorderDecorator extends Decorator{
 
     public BorderDecorator() {
@@ -17,13 +15,10 @@ public class BorderDecorator extends Decorator{
         this.borderWidth = borderWidth;
     }
 
-<<<<<<< HEAD
-=======
     /**
      * work as addedBehavior
      * @param borderWidth
      */
->>>>>>> 72deacd (first commit)
     private void drawBorder(int borderWidth) {
         System.out.println("draw border with: " + borderWidth);
     }
