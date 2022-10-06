@@ -6,4 +6,9 @@ public class PMWindowImp extends WindowImp{
     public void deviceRect() {
         System.out.println("pm window rect");
     }
+
+    @Override
+    public void deviceRow() {
+        System.out.println("pm window row");
+    }
 }

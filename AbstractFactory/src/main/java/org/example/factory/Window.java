@@ -17,4 +17,8 @@ public class Window {
     public void drawRect() {
         imp.deviceRect();
     };
+
+    public void drawRow() {
+        imp.deviceRow();
+    }
 }

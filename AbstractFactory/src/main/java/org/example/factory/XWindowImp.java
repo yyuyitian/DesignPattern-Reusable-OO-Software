@@ -6,4 +6,9 @@ public class XWindowImp extends WindowImp{
     public void deviceRect() {
         System.out.println("x window rect");
     }
+
+    @Override
+    public void deviceRow() {
+        System.out.println("x window row");
+    }
 }

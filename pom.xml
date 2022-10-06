@@ -12,6 +12,7 @@
         <module>Composite</module>
         <module>Decorator</module>
         <module>AbstractFactory</module>
+        <module>Command</module>
     </modules>
 
     <properties>
