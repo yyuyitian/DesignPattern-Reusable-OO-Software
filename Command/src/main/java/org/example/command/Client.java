@@ -1,5 +1,9 @@
 package org.example.command;
 
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.Random;
+
 public class Client {
 
     public static void main(String[] args) {
@@ -9,5 +13,6 @@ public class Client {
 //        Document document = new Document();
 //        PasteCommand command1 = new PasteCommand(document);
 //        command1.execute();
+
     }
 }

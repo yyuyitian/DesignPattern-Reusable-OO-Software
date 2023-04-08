@@ -10,5 +10,6 @@ public class MenuOpenItem extends MenuItem{
     @Override
     public void click() {
         command.execute();
+        int capacity;
     }
 }
